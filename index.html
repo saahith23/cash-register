@@ -9,13 +9,35 @@
 </head>
 <body>
     <div class= "container">
-        <h1>cash register</h1>
-        <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return</p>
-<h2>Bill Amount</h2>
-<input><input>
-<h2>Cash Given</h2>
-<input><input>
-<button>check</button>
+        <h1 class="heading">cash register</h1>
+        <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return</p>
+        <label for="bill-amount">Bill Amoount:</label>
+
+<input for="bill-amount" type="text"/>
+<label for="Cash-given">Cash Given</label>
+<input for="cash-given type="text/>
+<button id = "check-button">check</button>
+<table class= "change-table">
+    <caption>
+        Return Change
+    </caption>
+    <tr>
+        <th>No of Notes</th>
+        <td></td>
+    </tr>
+
+    <tr>
+        <th>Note</th>
+        <td>2000</td>
+        <td>500</td>
+        <td>100</td>
+        <td>20</td>
+        <td>10</td>
+        <td>5</td>
+        <td>1</td>
+    </tr>
+</table>
+
     </div>
 </body>
 <script src="./index.js"></script>
