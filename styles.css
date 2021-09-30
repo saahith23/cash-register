@@ -1,10 +1,12 @@
-*{
-
+body{
+display: flex;
+justify-content: center;
 }
 .container{
  display: flex;
  flex-direction: column;
  width: 50vw;
+
  
 }
 .heading{
@@ -13,4 +15,8 @@
 }
 .change-table{
     background-color: aqua;
+    width:50vw;
+}
+caption{
+    margin:1rem 0;
 }
