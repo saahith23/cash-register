@@ -1,6 +1,7 @@
 body{
 display: flex;
 justify-content: center;
+background-color: azure;
 }
 .container{
  display: flex;
@@ -19,4 +20,8 @@ justify-content: center;
 }
 caption{
     margin:1rem 0;
+}
+#check-button{
+    border-radius: 1rem;
+    background-color: aqua;
 }
